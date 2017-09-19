@@ -12,6 +12,11 @@ public class MainActivity extends AppCompatActivity implements QRCodeReaderView.
     private TextView resultTextView;
     private QRCodeReaderView qrCodeReaderView;
 
+
+    /** Don't forget to add permission if using later that api 22 . Runtime permission are required .
+     */
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
